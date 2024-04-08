@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Pass-in App Dashboard Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dashboard developed as part of the NLW Unite course by Rocketseat.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- TypeScript
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Participant information visualization
+- Participant list search
+- Participant list filtering
+- URL State
 
-- Configure the top-level `parserOptions` property like this:
+## Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installation
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/higorabreu/pass-in-app.git
+2. Navigate to the project directory:
+   ```bash
+   cd pass-in-app
+3. Install dependencies:
+   ```bash
+   npm install
+
+## Usage
+
+1. Start the development server:
+   ```bash
+   npm run dev
+2. Open your browser and go to http://localhost:{PORT} to view the app.
+
+## API Configuration
+The dashboard relies on a Node.js API to function properly. Make sure the API is configured and running. You can find the API repository [here](https://github.com/rocketseat-education/nlw-unite-nodejs).
